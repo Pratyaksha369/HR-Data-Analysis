@@ -29,6 +29,7 @@ The dataset will be imported into a MySQL database for cleaning and analysis.
 ## Project Steps
 
 ### 1. Database and Table Creation
+
 a) Database: Create a MySQL database called projects_hr.
 
 b) Table: Create a table named hr based on the dataset's column headers.
@@ -38,7 +39,9 @@ c) Data Import: Import the HR Analytics dataset into the hr table.
 ### 2. Data Cleaning and Transformation
 
 1.Standardize Date Formats
+
 2.Convert Data Types
+
 3.Handle NULL Values
 
 ### 3. Adding Age Column
@@ -47,17 +50,17 @@ Add a new column to calculate the current age of employees based on their birthd
 ### 4. Data Analysis and Insights
 Perform queries and analysis to derive insights, including:
 
-#### 1.Youngest and Oldest Employees:
+#### a) Youngest and Oldest Employees:
 Find the youngest and oldest employees and analyze age distribution.
 
-#### 2.Gender and Race Breakdown:
+#### b) Gender and Race Breakdown:
 Breakdown of employees by gender.
 Gender distribution by departments.
 Employee distribution by race.
-#### 3.Average Employment Length:
+#### c) verage Employment Length:
 Calculate the average length of employment for all employees.
 
-#### 4.Yearly Change in Employee Count:
+#### d) Yearly Change in Employee Count:
 Analyze yearly hires and terminations.
 
 Calculate the percentage change in employee count each year.
