@@ -17,12 +17,12 @@ The analysis includes cleaning up date formats, adding new columns for analysis,
 ## Dataset Description
 The dataset contains employee-related information such as:
 
-1.Birthdate
-2.Hire Date
-3.Termination Date (term_date)
-4.Gender
-5.Race
-6.Department
+1) Birthdate
+2) Hire Date
+3) Termination Date (term_date)
+4) Tender
+5) Race
+6) Department
 
 The dataset will be imported into a MySQL database for cleaning and analysis.
 
