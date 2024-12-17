@@ -29,11 +29,11 @@ The dataset will be imported into a MySQL database for cleaning and analysis.
 ## Project Steps
 
 ### 1. Database and Table Creation
-Database: Create a MySQL database called projects_hr.
+a) Database: Create a MySQL database called projects_hr.
 
-Table: Create a table named hr based on the dataset's column headers.
+b) Table: Create a table named hr based on the dataset's column headers.
 
-Data Import: Import the HR Analytics dataset into the hr table.
+c) Data Import: Import the HR Analytics dataset into the hr table.
 
 ### 2. Data Cleaning and Transformation
 
@@ -47,30 +47,41 @@ Add a new column to calculate the current age of employees based on their birthd
 ### 4. Data Analysis and Insights
 Perform queries and analysis to derive insights, including:
 
-1.Youngest and Oldest Employees: Find the youngest and oldest employees and analyze age distribution.
+#### 1.Youngest and Oldest Employees:
+Find the youngest and oldest employees and analyze age distribution.
 
-2.Gender and Race Breakdown:
+#### 2.Gender and Race Breakdown:
 Breakdown of employees by gender.
 Gender distribution by departments.
 Employee distribution by race.
-Average Employment Length: Calculate the average length of employment for all employees.
-Yearly Change in Employee Count:
-Analyze yearly hires and terminations.
-Calculate the percentage change in employee count each year.
-## Insights Extracted
-1. Age Analysis
-The youngest employee is 21 years old, and the oldest employee is 51 years old.
-Employees can be grouped into various age categories for better analysis.
-2. Gender and Race Analysis
-Gender Breakdown: Total male and female employees.
-Gender by Departments: Analyze the gender composition within each department.
-Race Breakdown: Distribution of employees by race.
+#### 3.Average Employment Length:
+Calculate the average length of employment for all employees.
 
-3. Employment Duration
+#### 4.Yearly Change in Employee Count:
+Analyze yearly hires and terminations.
+
+Calculate the percentage change in employee count each year.
+
+## Insights Extracted
+
+### 1. Age Analysis
+
+a) The youngest employee is 21 years old, and the oldest employee is 51 years old.
+
+b) Employees can be grouped into various age categories for better analysis.
+
+### 2. Gender and Race Analysis
+
+a) Gender Breakdown:  Total male and female employees.
+b) Gender by Departments:  Analyze the gender composition within each department.
+c) Race Breakdown:  Distribution of employees by race.
+
+### 3. Employment Duration
 The average length of employment is approximately 8 years.
 
-4. Yearly Employee Trends
-
+### 4. Yearly Employee Trends
 Calculate the yearly net change in employee count:
-Despite fluctuations in hires and terminations, the workforce size remained relatively stable (ranging from 890 to 925 employees).
-In 2007, the percentage change in employee count was slightly lower compared to previous years.
+ 
+a) Despite fluctuations in hires and terminations, the workforce size remained relatively stable (ranging from 890 to 925 employees).
+
+b) In 2007, the percentage change in employee count was slightly lower compared to previous years.
