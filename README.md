@@ -76,7 +76,11 @@ b) Employees can be grouped into various age categories for better analysis.
 ### 2. Gender and Race Analysis
 
 a) Gender Breakdown:  Total male and female employees.
+
+
 b) Gender by Departments:  Analyze the gender composition within each department.
+
+
 c) Race Breakdown:  Distribution of employees by race.
 
 ### 3. Employment Duration
